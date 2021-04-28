@@ -10,16 +10,16 @@ spec:
     devEnvApprovers:
     - todo
     environmentGitOwner: todo
-    gitKind: gitlab
-    gitName: gitlab
-    gitServer: http://192.168.10.10:8080
+    gitKind: github
+    gitName: github
+    gitServer: https://github.com
     provider: minikube
   environments:
   - key: dev
   - key: staging
   - key: production
   ingress:
-    domain: "192.168.64.3.nip.io"
+    domain: ""
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:

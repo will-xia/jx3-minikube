@@ -35,7 +35,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: change.me
+    domain: 5b8ff85de4a6.ngrok.io
     externalDNS: false
     kind: ingress
     namespaceSubDomain: -jx.
